@@ -3,10 +3,10 @@ let cross = document.querySelector('.cross')
 let links = document.querySelector('.links')
 menu.addEventListener('click', openMenu)
  function openMenu(){
-    links.style.transform= 'translateX(0%)';
+    links.style.display= 'flex';
  }
  cross.addEventListener('click',closeMenu)
  function closeMenu(){
-    links.style.transform= 'translateX(100%)';
+    links.style.display= 'none';
 
  }

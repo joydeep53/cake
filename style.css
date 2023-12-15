@@ -437,7 +437,7 @@ body{
 
     .links{
         position: absolute;
-        display: flex;
+        display:none;
         justify-content: center;
         align-items: center;
         flex-direction: column;
@@ -448,8 +448,9 @@ body{
         right: 0;
         text-align: center;
         z-index: 1;
-        padding-top:5%;
-        transform: translateX(100%);
+        
+        padding-top:15%;
+        /* transform: translateX(100%); */
         transition: all .6s linear;
        
        
@@ -568,5 +569,8 @@ body{
 .products{
     flex-direction: column;
 }  
+.product{
+    border: none;
+}
       
  }

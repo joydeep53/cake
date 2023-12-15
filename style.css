@@ -436,21 +436,21 @@ body{
  
 
     .links{
-        position: absolute;
-        display:none;
+        position:absolute;
+        display:flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        background-color: rgb(255, 255, 255);
-        height: 100vh;
+        background-color: rgb(216, 197, 197);
+        height: 130vh;
         width: 100%;
         top:0%;
         right: 0;
         text-align: center;
         z-index: 1;
         
-        padding-top:15%;
-        /* transform: translateX(100%); */
+        padding-top:7%;
+        transform: translateY(-110%);
         transition: all .6s linear;
        
        

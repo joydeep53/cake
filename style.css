@@ -997,7 +997,7 @@ body{
     justify-content: space-evenly;
     height: 70%;
     width: 33.33%;
-    border: 2px solid brown;
+/*     border: 2px solid brown; */
     gap :50px;
     padding: 2%;
     text-align: center;
@@ -1021,7 +1021,7 @@ body{
     justify-content: space-evenly;
     height: 70%;
     width: 33.33%;
-    border: 2px solid brown;
+/*     border: 2px solid brown; */
     gap :20px;
     padding: 2%;
 
@@ -1052,7 +1052,7 @@ body{
     justify-content: center;
     height: 70%;
     width: 33.33%;
-    border: 2px solid brown;
+/*     border: 2px solid brown; */
     gap :5px;
     padding: 2%;
 
@@ -1077,7 +1077,7 @@ body{
     /* width: 70%; */
     flex-wrap: wrap;
     gap: 10px;
-    border:  2px solid red;
+/*     border:  2px solid red; */
 }
 .copyright{
     background-color: #fffbe5;
